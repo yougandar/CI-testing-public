@@ -4,7 +4,7 @@
     "parameters": {
         "sessionId": {
             "type": "string",
-            "defaultValue": "2f707cdc-e081-47bc-8be1-",
+            "defaultValue": "",
             "metadata": {
                 "type": "sessionid",
                 "description": "The GUID Prefix for the runbook job to be started."
