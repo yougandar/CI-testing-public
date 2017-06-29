@@ -64,7 +64,7 @@
         "linuxPublisher": "Canonical",
         "linuxSku": "16.04.0-LTS",
         "linuxVersion": "16.04.201606270",
-        "baseUrl": "https://aztdrepo.blob.core.windows.net/mesosphere",
+        "baseUrl": "https://raw.githubusercontent.com/sysgain/CI-testing-public/master/mesosphere",
         "windowsVmSetupUrl": "[concat(variables('baseUrl'),'/nested/windows-with-ext.json')]",
         "DcosImageCommit": "e64024af95b62c632c90b9063ed06296fcf38ea5",
         "TemplateGenerationDate": "2016-09-15 22:30:01.932898",

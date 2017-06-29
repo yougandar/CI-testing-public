@@ -32,7 +32,7 @@
         "vnetAddressPrefix": "10.4.0.0/16",
         "vnetSubnetName": "icspaygsubnet1",
         "vnetSubnetAddressPrefix": "10.4.0.0/24",
-        "baseUrl": "https://aztdrepo.blob.core.windows.net/informatica",
+        "baseUrl": "https://raw.githubusercontent.com/sysgain/CI-testing-public/master/informatica",
         "scriptsUri": "[concat(variables('baseUrl'),'/scripts/')]",
         "storageAccountName": "[concat('icspayg', variables('suffix'))]",
         "destStorageAccountName": "[concat('dest', variables('suffix'))]",
