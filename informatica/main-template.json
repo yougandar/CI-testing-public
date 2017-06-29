@@ -13,6 +13,7 @@
     },
     "variables": {
         "sessionId":"[concat(parameters('sessionId'),substring(uniqueString(resourceGroup().id), 0, 12))]",
+        "sessionId1":"[concat(parameters('sessionId'))]",
         "location": "[resourceGroup().location]",
         "suffix": "[substring(uniqueString(resourceGroup().id), 0, 7)]",
         "adminUsername": "testdrive",
@@ -156,7 +157,7 @@
                     }
                 },
                 {
-                    "name": "[concat(variables('automationAccountName'), '/', variables('sessionId'))]",
+                    "name": "[concat(variables('automationAccountName'), '/', variables('sessionId1'))]",
                     "type": "Microsoft.Automation/automationAccounts/jobs",
                     "apiVersion": "2015-10-31",
                     "location": "[variables('automationLocation')]",
