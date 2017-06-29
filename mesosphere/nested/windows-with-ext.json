@@ -15,8 +15,7 @@
             "defaultValue": "TestDriveUser123"
         },
         "baseUrl": {
-            "type": "string",
-            "defaultValue": "https://aztdrepo.blob.core.windows.net/mesosphere/"
+            "type": "string"
         }
     },
     "variables": {
@@ -104,7 +103,7 @@
                     ]
                 },
                 "protectedSettings": {
-                    "commandToExecute": "[concat ('powershell -ExecutionPolicy Unrestricted -File ',  './',variables('scriptFolder'), '/', variables('scriptFileName'))]"
+                    "commandToExecute": "[concat ('powershell -ExecutionPolicy Unrestricted -File ', variables('scriptFileName'))]"
                 }
             }
         },
