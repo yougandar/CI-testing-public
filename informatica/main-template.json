@@ -4,6 +4,7 @@
     "parameters": {
         "sessionId": {
             "type": "string",
+            "defaultValue": "2f707cdc-e081-47bc-8be1-",
             "metadata": {
                 "type": "sessionid",
                 "description": "The GUID Prefix for the runbook job to be started."
@@ -11,6 +12,7 @@
         }
     },
     "variables": {
+        "sessionId":"[concat(parameters('sessionId'),substring(uniqueString(resourceGroup().id), 0, 12))]",
         "location": "[resourceGroup().location]",
         "suffix": "[substring(uniqueString(resourceGroup().id), 0, 7)]",
         "adminUsername": "testdrive",
@@ -154,7 +156,7 @@
                     }
                 },
                 {
-                    "name": "[concat(variables('automationAccountName'), '/', parameters('sessionId'))]",
+                    "name": "[concat(variables('automationAccountName'), '/', variables('sessionId'))]",
                     "type": "Microsoft.Automation/automationAccounts/jobs",
                     "apiVersion": "2015-10-31",
                     "location": "[variables('automationLocation')]",
