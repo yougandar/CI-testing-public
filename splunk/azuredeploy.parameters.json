@@ -6,13 +6,13 @@
             "value": "splunkuser"
         },
         "vmAdminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Ashpassword123"
         },
         "clientAdminUsername": {
             "value": "clientuser"
         },
         "clientAdminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Ashpassword123"
         },
         "clientVmName": {
             "value": "clientvm"
@@ -21,7 +21,7 @@
             "value": "splunkvm"
         },
         "splunkAdminPassword": {
-            "value": "GEN-PASSWORD"
+            "value": "Ashpassword123"
         },
         "sshFrom": {
             "value": "0.0.0.0/0"
@@ -36,12 +36,6 @@
             "value": {
                 "value1": "splunk"
             }
-        },
-        "armBaseUrl": {
-            "value": "https://raw.githubusercontent.com/sysgain/arm-base/"
-        },
-        "armComponentUrl": {
-            "value": "https://raw.githubusercontent.com/sysgain/arm-components/staging/splunk/"
         }
     }
 }
