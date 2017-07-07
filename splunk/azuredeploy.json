@@ -148,17 +148,17 @@
         "singleQuote": "'",
         "pass": "[concat(variables('singleQuote'), parameters('splunkAdminPassword'), variables('singleQuote'))]",
         "splunkServerRole": "splunk_server",
-        "storageAccountResourceUrl": "[concat(variables('armBaseUrl'),'/nested/storage.json?token=AT3nULc9YvsAnSv2545B5C8FITxL2a3lks5ZaH-QwA%3D%3D')]",
-        "publicIPResourceUrl": "[concat(variables('armBaseUrl'),'/nested/public-ip.json?token=AT3nUK3BGSxC05ES3D1MD6I7pg0H_HLXks5ZaH-ywA%3D%3D')]",
-        "networkSecurityGroupResourceUrl": "[concat(variables('armBaseUrl'),'/nested/splunknsg.json?token=AT3nUL8nriPkOd3kB1-fWCYSPNdhqdC0ks5ZaH_KwA%3D%3D')]",
-        "virtualNetworkResourceUrl": "[concat(variables('armBaseUrl'),'/nested/vnet-2subnets.json?token=AT3nUJPKaKj4Rpyc7bCNl02hX5uA2mdgks5ZaH_owA%3D%3D')]",
-        "networkInterfacesResourceUrl": "[concat(variables('armBaseUrl'),'/nested/nic-static-private-ip.json?token=AT3nUB5R6llLhhkIy0x7BjSwY0TC-M25ks5ZaIAEwA%3D%3D')]",
+        "storageAccountResourceUrl": "[concat(variables('armBaseUrl'),'/nested/storage.json')]",
+        "publicIPResourceUrl": "[concat(variables('armBaseUrl'),'/nested/public-ip.json')]",
+        "networkSecurityGroupResourceUrl": "[concat(variables('armBaseUrl'),'/nested/splunknsg.json')]",
+        "virtualNetworkResourceUrl": "[concat(variables('armBaseUrl'),'/nested/vnet-2subnets.json')]",
+        "networkInterfacesResourceUrl": "[concat(variables('armBaseUrl'),'/nested/nic-static-private-ip.json')]",
         "customScriptsUrlPrefix": "[concat(variables('armBaseUrl'),'/scripts')]",
-        "virtualMachineResourceUrl": "[concat(variables('armBaseUrl'),'/nested/vm-plan-2disks.json?token=AT3nUJLEj3EYSPOdYyFRInItMvPUIQF4ks5ZaIAcwA%3D%3D')]",
-        "VMExtensionsResourceUrl": "[concat(variables('armBaseUrl'),'/nested/extension-array.json?token=AT3nUKYybNn5RtMuYr8lO3TYYcHLlKl3ks5ZaIAwwA%3D%3D')]",
-        "clientvirtualMachineResourceUrl": "[concat(variables('armBaseUrl'),'/nested/virtual-machine.json?token=AT3nUFdFC7sFMh7UTFWxLtYh4d_acSsFks5ZaIBDwA%3D%3D')]",
-        "clientNetworkSecurityGroupResourceUrl": "[concat(variables('armBaseUrl'),'/nested/client-nsg.json?token=AT3nUKzK3g82qAif-wYx-TAr18usNwQPks5ZaIBbwA%3D%3D')]",
-        "clientNetworkInterfacesResourceUrl": "[concat(variables('armBaseUrl'),'/nested/network-interface.json?token=AT3nUOvQn4WB1KPe1CupC2FpDQmUCBSPks5ZaIBpwA%3D%3D')]"
+        "virtualMachineResourceUrl": "[concat(variables('armBaseUrl'),'/nested/vm-plan-2disks.json')]",
+        "VMExtensionsResourceUrl": "[concat(variables('armBaseUrl'),'/nested/extension-array.json')]",
+        "clientvirtualMachineResourceUrl": "[concat(variables('armBaseUrl'),'/nested/virtual-machine.json')]",
+        "clientNetworkSecurityGroupResourceUrl": "[concat(variables('armBaseUrl'),'/nested/client-nsg.json')]",
+        "clientNetworkInterfacesResourceUrl": "[concat(variables('armBaseUrl'),'/nested/network-interface.json')]"
     },
     "resources": [
         {
