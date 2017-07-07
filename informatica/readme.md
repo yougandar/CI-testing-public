@@ -1,3 +1,1 @@
 Hello.
-s
-x
