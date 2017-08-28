@@ -4,4 +4,4 @@ z
 b
 d
 d
-rsw
+rswd
