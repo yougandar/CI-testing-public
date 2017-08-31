@@ -7,7 +7,7 @@ ss
 test yellowfinza
 sdkjfjskfskfhsfsjfsfhksss
 fjjddsds
-js
+jsx
 fssxs
 ggl
 yy
