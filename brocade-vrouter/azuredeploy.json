@@ -34,7 +34,7 @@
         "storageAccountType": "Standard_LRS",
         "storageAccountKind": "storage",
         "publicIPId": "[resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPName'))]",
-        "ipConfigName1": "[concat(variables('namingInfix'), '-ipconfig1')]",
+        "ipConfigName1":"[concat(variables('namingInfix'), '-ipconfig1')]",
         "ipConfigName2": "[concat(variables('namingInfix'), '-ipconfig2')]",
         "ipConfigName3": "[concat(variables('namingInfix'), '-ipconfig3')]",
         "sshPublicKey": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAjNdCTvjxZHapoJqrGkVdwmtnQn67azWp15+THgdIVvY1CZI1ZjBlTJbso953u2lADApB93UIhqfsy+mKMoMSqhSWGvHQpQQ8RIjMcwVkDZv4xpAbA7myu8J3p2DL9KCbLEmDfYJ1APRb7szMZLctY6vwwL09E1tz4gBFD45YMKOscTSGLMThlKakELPvB+vjfTj2jtzu7rKieJDCYIRc957JRYHEpQkQ/Ed5HcdIJEFeYwky2sUjQajCrb6VsKNdJMbMkGYbmzratFbvIgt3DoUouO5kkJoOVl1hpQ6EjYe8KXuGXjY1sMKgCEj1KW8rNrCsr2i5wUEu5LYH3kd6VQ== rsa-key-20170323",
